@@ -6,33 +6,83 @@
   <title>AnyMall Camp</title>
   <style>
     body {
+      font-family: "Segoe UI", sans-serif;
       margin: 0;
-      font-family: "Arial", sans-serif;
-      background-color: #f8f9fa;
-      color: #333;
+      padding: 0;
       text-align: center;
+      background: #f7f7f7;
     }
     header {
-      background: linear-gradient(to right, #ff7e5f, #feb47b);
+      background: #ff7f50;
       color: white;
-      padding: 60px 20px;
+      padding: 2rem 1rem;
     }
     header h1 {
-      font-size: 3em;
       margin: 0;
+      font-size: 2.5rem;
     }
     header p {
-      font-size: 1.2em;
+      margin: 0.5rem 0 0;
+      font-size: 1.2rem;
     }
     section {
-      padding: 60px 20px;
+      padding: 3rem 1rem;
     }
     .members {
       display: flex;
-      justify-content: center;
       flex-wrap: wrap;
-      gap: 30px;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 2rem;
     }
     .member {
       background: white;
-      border-radius: 12p
+      border-radius: 15px;
+      padding: 1rem;
+      width: 160px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+    .member img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      background: #333;
+      color: white;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AnyMall Camp</h1>
+    <p>人とペットが幸せに暮らせる未来へ</p>
+  </header>
+
+  <section>
+    <h2>参加メンバー</h2>
+    <div class="members">
+      <div class="member">
+        <img src="https://via.placeholder.com/100" alt="member1" />
+        <p>ゆい</p>
+      </div>
+      <div class="member">
+        <img src="https://via.placeholder.com/100" alt="member2" />
+        <p>まなみ</p>
+      </div>
+      <div class="member">
+        <img src="https://via.placeholder.com/100" alt="member3" />
+        <p>たかし</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 AnyMall Camp</p>
+  </footer>
+</body>
+</html>
